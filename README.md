@@ -16,3 +16,6 @@ The dataset is collected from Kaggle website. The link for the data is https://w
 ## Objective
 
 The primary purpose of this data is to provide insights into the patterns and frequency of these types of accidents in the state that can help develop safety measures and policies.
+
+## Background Image 
+![bike-crash-sign-ai-format-available-690933](https://user-images.githubusercontent.com/111814578/214193713-a03d6710-d9d4-4f8c-ba78-9fa81c5c25ad.jpg)
