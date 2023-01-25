@@ -1,0 +1,57 @@
+Crashtable
+-
+CrashID pk int FK >- objectivecondtable.CrashID
+CrashAlcoh Boolean
+CrashDay varchar
+CrashGrp varchar
+CrashHour int
+CrashLoc varchar
+CrashMonth varchar
+CrashSevr varchar
+CrashType varchar
+CrashYear int
+City varchar
+County varchar
+HitRun Boolean
+
+Bikedrivertable
+-
+CrashID pk int FK >- objectivecondtable.CrashID
+BikeAge int
+BikeAgeGrp varchar
+BikeAlcFlg boolean
+BikeAlcDrg varchar
+BikeDir varchar
+BikeInjury varchar
+BikePos varchar
+BikeRace varchar
+BikeSex varchar
+DrvrAge int
+DrvrAgeGrp int
+DrvrAlcDrg varchar
+DrvrAlcFlg boolean
+DrvrInjury varchar
+DrvrRace varchar
+DrvrSex varchar
+DrvrVehTyp varchar
+
+objectivecondtable
+-
+CrashID pk int
+RdCharacte varchar
+RdClass varchar
+RdConditio varchar
+RdConfig varchar
+RdDefects varchar
+RdFeature varchar
+RdSurface varchar
+Region varchar
+RuralUrban varchar
+SppedLimit varchar
+TraffCntrl varchar
+Weather varchar
+Workzone boolean
+Latitude dec
+Lightcond varchar
+Locality varchar
+Longitude dec
