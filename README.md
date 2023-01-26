@@ -34,5 +34,10 @@ The primary purpose of this data is to provide insights into the patterns and fr
 - R
 - Tableau
 
+## Data Exploration
+- Crash Reports  - No of accidents considering the given parameters (County,City Speedlimit, City, Agegroup, Gender )
+- Visualization of crash reports using latitude and longitudes and creating heat maps
+- Yearly wise , Monthly , Weekly crash reports  
+
 ## Proposed Machine Learning Model
 - Our model is going to predict the severity of injury by Bikecrash with relevant parameters. We will examine the statistical relationship of the data set's features to determine the coorelation among the possible attributions for bike crash. Then we apply a linear regression model to predict the severity of injury.
