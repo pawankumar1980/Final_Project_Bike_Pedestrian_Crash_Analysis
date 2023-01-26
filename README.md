@@ -1,9 +1,9 @@
 # Final_Project_Bike_Pedestrian_Crash_Analysis
-We are doing this as part of our final project requirement for the Data Analytics Boot Camp.
+
 
 ## Background
 
-The data provided allows users to visualize the locations of accidents involving bicyclists and pedestrians in North Carolina. It is sourced from police reports of collisions between bicycles and motor vehicles and pedestrian and motor vehicle accidents that occurred on public roadways, vehicular areas, and private properties (if reported) from January 2007 to December 2019. The primary purpose of this data is to provide insights into the patterns and frequency of these types of accidents in the state that can help develop safety measures and policies.
+The data provided for this project is a collection of information on accidents involving bicyclists and pedestrians in North Carolina. It is sourced from police reports of collisions between bicycles and motor vehicles, as well as pedestrian and motor vehicle accidents that occurred on public roadways, vehicular areas, and private properties (if reported) from January 2007 to December 2019. The primary objective of this data is to gain a deeper understanding of the patterns and frequency of these types of accidents in the state, which can be used to inform the development of safety measures and policies aimed at reducing their occurrence.
 
 ## Dataset Description
 
@@ -15,18 +15,17 @@ The data provided allows users to visualize the locations of accidents involving
 
 - Drop Null values
 - Renaming colunns
-- Fill in certain age number with reasonable estimation
+- Fill in certain age number with reasonable estimation 
+-  Additional modification and deletion of data will be done during application of ML models
 
 ### Information for each crash includes: 
 
 County, City, Crash Date, Crash Day, Crash Group, Crash Location, Crash Time, Crash Severity, Bike/Pedestrian Age Group, Bike/Pedestrian Alcohol Detected, Bike Direction, Bike/Pedestrian Injury, Bike/Pedestrian Position, Bike/Pedestrian Race, Bike/Pedestrian Sex, Ambulance Response, Driver Age Group, Driver Estimated Speed, Speed Limit, Driver Alcohol Detected, Driver Injury, Driver Race, Driver Sex, Driver Vehicle Type, Hit and Run, Development, Light Condition, Locality, Number of Lanes, Road Characteristics/Class/Condition/Configuration, Road Defects/Features, Traffic Control, Crash Type, and/or Weather.
 
-## Project Overview
-- Predicting severity of the injury from Bike Crash with relevant parameters
 
 ## Objective
 
-The primary purpose of this data is to provide insights into the patterns and frequency of these types of accidents in the state that can help develop safety measures and policies.
+The main objective of this data is to analyze patterns and frequency of Serious & Fatal accidents in the state, in order to implement safety measures and policies that reduce their occurrence. We plan to utilize supervised Machine Learning techniques to identify the root causes of these accidents and develop strategies for prevention.
 
 ## List of Tools
 - SQL
