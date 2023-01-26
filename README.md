@@ -14,6 +14,7 @@ The data provided allows users to visualize the locations of accidents involving
 ## Dataset Cleaning
 
 - Drop Null values
+- Renaming colunns
 - Fill in certain age number with reasonable estimation
 
 ### Information for each crash includes: 
