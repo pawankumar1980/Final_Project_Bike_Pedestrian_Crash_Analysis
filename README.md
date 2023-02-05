@@ -38,5 +38,13 @@ The main objective of this data is to analyze patterns and frequency of Serious 
 - Visualization of crash reports using latitude and longitudes and creating heat maps
 - Yearly wise , Monthly , Weekly crash reports  
 
+## Data Visualization
+- Accidents by weekday per year
+![accidentsbyweekdayperyear](https://user-images.githubusercontent.com/111814578/216847822-14fc5e7c-feff-456f-a5ba-06da4d74133b.png)
+- Accidents per month
+![accidentspermonth](https://user-images.githubusercontent.com/111814578/216847847-4e83cb88-c602-42a0-96e7-7a7d9d9f4a06.png)
+
+
+
 ## Proposed Machine Learning Model
 - Our model is going to predict the severity of injury by Bikecrash with relevant parameters. We will examine the statistical relationship of the data set's features to determine the coorelation among the possible attributions for bike crash. Then we apply a linear regression model to predict the severity of injury.
