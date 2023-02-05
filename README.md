@@ -51,7 +51,14 @@ The main objective of this data is to analyze patterns and frequency of Serious 
 ![AmbulanceR](https://user-images.githubusercontent.com/111814578/216847878-74a14e29-dcc3-4970-bd31-3de5b875ed14.png)
 - Crash Fatality
 ![crash_Fatality](https://user-images.githubusercontent.com/111814578/216847880-bac5d90d-6a8e-43a3-948c-6a765b450309.png)
-
+- Crashes by weekday per year
+![crashesbyweekdayperyear](https://user-images.githubusercontent.com/111814578/216847881-f8270065-b07d-4ec9-b00c-86dd6aae6881.png)
+- Crashes per month
+![crashespermonth](https://user-images.githubusercontent.com/111814578/216847882-5abd348c-0b83-4ee0-aab4-bfe8231ccde3.png)
+- Crashes per season
+![crashesperseason](https://user-images.githubusercontent.com/111814578/216847883-0ed9e020-b779-455c-b5a2-0f5b52b668e7.png)
+- Crashes per tod 
+![crashespertod](https://user-images.githubusercontent.com/111814578/216847884-e88a24c1-5635-44cf-97db-f2ce6d3c1d9e.png)
 
 
 
