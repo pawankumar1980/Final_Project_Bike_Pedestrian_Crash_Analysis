@@ -59,8 +59,16 @@ The main objective of this data is to analyze patterns and frequency of Serious 
 ![crashesperseason](https://user-images.githubusercontent.com/111814578/216847883-0ed9e020-b779-455c-b5a2-0f5b52b668e7.png)
 - Crashes per tod 
 ![crashespertod](https://user-images.githubusercontent.com/111814578/216847884-e88a24c1-5635-44cf-97db-f2ce6d3c1d9e.png)
-
-
+- Crashes per year
+![crashesperyear](https://user-images.githubusercontent.com/111814578/216847885-132eedf6-e3da-4b72-8a3c-ac5f3f59ea61.png)
+- Road Class
+![Road_Class](https://user-images.githubusercontent.com/111814578/216847886-06329db1-6a03-456d-b3f0-99db59d50003.png)
+- Speed limit
+![speed_limit](https://user-images.githubusercontent.com/111814578/216847887-668ebe4a-4d90-4672-80ac-6fcf10ec3a37.png)
+- Traffic Control
+![Traffic_control](https://user-images.githubusercontent.com/111814578/216847888-9cefe4a7-19d1-43fc-92fb-343afb9a1d48.png)
+- Urban or rural area
+![urban_or_rural_area](https://user-images.githubusercontent.com/111814578/216847889-d289bb10-cb98-4f58-9a0c-c556401fbed3.png)
 
 ## Proposed Machine Learning Model
 - Our model is going to predict the severity of injury by Bikecrash with relevant parameters. We will examine the statistical relationship of the data set's features to determine the coorelation among the possible attributions for bike crash. Then we apply a linear regression model to predict the severity of injury.
