@@ -12,10 +12,39 @@ The data provided for this project is a collection of information on accidents i
 
 ## Dataset Cleaning
 
-- Drop Null values
-- Renaming colunns
-- Fill in certain age number with reasonable estimation 
--  Additional modification and deletion of data will be done during application of ML models
+<img width="1285" alt="Screen Shot 2023-02-08 at 17 23 58" src="https://user-images.githubusercontent.com/111800568/217665081-e8603b7c-638a-4dea-b9ee-7b1b827ce26a.png">
+
+ - Drop the columns 'X', 'Y', 'OBJECTID_1','BikeAge','DrvrAge','NumBicsAin', 'NumBicsBin', 'NumBicsCin', 'NumBicsKil',
+       'NumBicsNoi', 'NumBicsTot', 'NumBicsUin'
+
+<img width="1139" alt="Screen Shot 2023-02-08 at 17 26 15" src="https://user-images.githubusercontent.com/111800568/217665431-55145f5e-49c5-4181-b3d4-2045ec90fc1b.png">
+
+- Create more condense groups for DrvrAgeGrp in order to deal with some potential outliers. I did this before hand because as "Over 70", it wouldnt convert in the codes below.
+- Drop "unknown" rows from Driver age group
+
+<img width="1143" alt="Screen Shot 2023-02-08 at 17 29 47" src="https://user-images.githubusercontent.com/111800568/217665917-39d68dcf-6b62-4d09-a458-f81278387077.png">
+
+- Create more condense groups for BikeAgeGrp in order to deal with some potential outliers. I did this before hand because as "Over 70", it wouldnt convert in the codes below.
+- Drop "unknown" rows from Biker age group
+
+
+<img width="1146" alt="Screen Shot 2023-02-08 at 17 32 17" src="https://user-images.githubusercontent.com/111800568/217666428-f2cd8945-0d98-46f9-8dc0-e6be207edde8.png">
+
+ - create time of day feature with Morning Rush, Day, Noon Rush, Afternoon, After Work Rush, Night.
+ - create CrashTimeofDay grouping
+ 
+
+<img width="1121" alt="Screen Shot 2023-02-08 at 17 34 07" src="https://user-images.githubusercontent.com/111800568/217666703-7d2befa1-59b8-4bb9-88b1-cdfa534f598e.png">
+
+- Creating Seasons Column for ML
+- Number of Crashes Season wise
+
+<img width="1440" alt="Screen Shot 2023-02-08 at 17 35 50" src="https://user-images.githubusercontent.com/111800568/217667105-c86e0287-2ae4-446a-829e-b5a98c595921.png">
+
+ - Dropping unknown option from CrashSeverity group
+ - create new Column for Machine Learning and Visualization with Fatal & Non- Fatal
+
+
 
 ### Information for each crash includes: 
 
