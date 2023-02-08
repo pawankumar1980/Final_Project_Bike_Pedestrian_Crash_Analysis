@@ -3,13 +3,12 @@
 
 ## Background
 
-The data provided for this project is a collection of information on accidents involving bicyclists and pedestrians in North Carolina. It is sourced from police reports of collisions between bicycles and motor vehicles, as well as pedestrian and motor vehicle accidents that occurred on public roadways, vehicular areas, and private properties (if reported) from January 2007 to December 2019. The primary objective of this data is to gain a deeper understanding of the patterns and frequency of these types of accidents in the state, which can be used to inform the development of safety measures and policies aimed at reducing their occurrence.
+The data provided for this project is a collection of information on accidents involving bicyclists and pedestrians in North Carolina. It is sourced from police reports of collisions between bicycles and motor vehicles and pedestrian and motor vehicle accidents that occurred on public roadways, vehicular areas, and private properties (if reported) from January 2007 to December 2019. The primary objective of this data is to gain a deeper understanding of the patterns and frequency of these types of accidents in the state, which can be used to inform the development of safety measures and policies aimed at reducing their occurrence.
 
 ## Dataset Description
 
-- The dataset is collected from Kaggle website. The link for the data is https://www.kaggle.com/datasets/atharvaingle/bikepedcrash. Our dataset holds all of the information related to bike crash include the bike rider's information the driver's information and the other objective conditions such as weather and road conditions etc, which will allow us to understand the attributions that lead to the bike crash and coorelated circumastance. 
-
-- We select this dataset to gather the main factors that cause the bike accidents and figure out the negative impact from them.
+ - The dataset is collected from the Kaggle website. The link for the data is https://www.kaggle.com/datasets/atharvaingle/bikepedcrash. Our dataset holds all the information related to the bike crash, including the bike rider's information, the driver's information and the other objective conditions such as weather and road conditions etc., which will allow us to understand the attributions that lead to the bike crash and correlated circumstances.
+ - We select this dataset to gather the main factors that cause bike accidents and determine their negative impact.
 
 ## Dataset Cleaning
 
@@ -33,7 +32,7 @@ The main objective of this data is to analyze patterns and frequency of Serious 
 - R
 - Tableau
 
-## Data Exploration
+## Data Cleaning & Features Rationalization
 - Crash Reports  - No of accidents considering the given parameters (County,City Speedlimit, City, Agegroup, Gender )
 - Visualization of crash reports using latitude and longitudes and creating heat maps
 - Yearly wise , Monthly , Weekly crash reports  
