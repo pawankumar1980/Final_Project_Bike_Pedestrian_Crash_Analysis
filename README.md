@@ -66,38 +66,150 @@ The main objective of this data is to analyze patterns and frequency of Serious 
 - Crashes by weekday per year
 ![crashesbyweekdayperyear](https://user-images.githubusercontent.com/111814578/216847881-f8270065-b07d-4ec9-b00c-86dd6aae6881.png)
 
+Fridays are the day of the week where the most accidents occur in most of the years. More information required to explain this occurrence. 
+
 - Crashes per month
 ![crashespermonth](https://user-images.githubusercontent.com/111814578/216847882-5abd348c-0b83-4ee0-aab4-bfe8231ccde3.png)
+
 
 - Crashes per season
 ![crashesperseason](https://user-images.githubusercontent.com/111814578/216847883-0ed9e020-b779-455c-b5a2-0f5b52b668e7.png)
 
+Summer & Fall have the highest number of crashes. The authorities need to further analyze the reasons for the same.
+
+
 - Crashes per tod 
 ![crashespertod](https://user-images.githubusercontent.com/111814578/216847884-e88a24c1-5635-44cf-97db-f2ce6d3c1d9e.png)
+
+From the visualizations it can be interpreted that the evening and after work hours are more prone to occurrence of crash
 
 - Crashes per year
 ![crashesperyear](https://user-images.githubusercontent.com/111814578/216847885-132eedf6-e3da-4b72-8a3c-ac5f3f59ea61.png)
 
+The distribution of crash over the subsequent years from 2007 to 2019 doesn’t imply any potential decline in the accident occurrence
+
 
 ## Coorelation
 
+For correlation, we used pearson correlation coefficient
+
+ - These features were found to have the highest relation to Crash Fatality. 
+ - We will discuss few of the factors in the subsequent slides using visualizations. 
+ - For better visuals, we had   created two separate data frames.
+
+### Visualizations in Relation to Crash Fatality
 
 - Ambulance Availability
 ![AmbulanceR](https://user-images.githubusercontent.com/111814578/216847878-74a14e29-dcc3-4970-bd31-3de5b875ed14.png)
 
+ - Ambulances were available for 95% of the fatal crashes.
+ - In Non-Fatal cases, Ambulance were available in 70% of the cases.
+ - We are not aware of whether they reached on time and people received the required first aid or treatment on time.
+
+
 - Road Class
 ![Road_Class](https://user-images.githubusercontent.com/111814578/216847886-06329db1-6a03-456d-b3f0-99db59d50003.png)
 
+ - Interstate roads are the biggest contributes to Fatal and non-Fatal crashes.
+ - Further analysis on the possible reasons needs to be done.
+
+
 - Speed limit
 ![speed_limit](https://user-images.githubusercontent.com/111814578/216847887-668ebe4a-4d90-4672-80ac-6fcf10ec3a37.png)
+
+ - Speed Limit of 50-55 MPH was the biggest cause of Fatal crashes.
+ - Would need more information on actual speed at the time of crash. Were there cases of over speeding?
+
+
 - Traffic Control
 ![Traffic_control](https://user-images.githubusercontent.com/111814578/216847888-9cefe4a7-19d1-43fc-92fb-343afb9a1d48.png)
+
+- Absence of Traffic Control is the biggest reason of crashes ( Fatal & Non-Fatal)
+- This needs to be implemented on priority
+
 - Urban or rural area
 ![urban_or_rural_area](https://user-images.githubusercontent.com/111814578/216847889-d289bb10-cb98-4f58-9a0c-c556401fbed3.png)
 
+- Rural areas had a higher percentage of Fatal crashes. This might have been due to 
+- Unavailability of hospitals or Ambulance at the site. This information is not available. 
+
+
 ## Proposed Machine Learning Model
-- Our model is going to predict the severity of injury by Bikecrash with relevant parameters. We will examine the statistical relationship of the data set's features to determine the coorelation among the possible attributions for bike crash. Then we apply a linear regression model to predict the severity of injury.
+
+### Preprocessing
+
+<img width="1117" alt="Screen Shot 2023-02-08 at 23 48 03" src="https://user-images.githubusercontent.com/111800568/217720825-55f5980c-023c-489f-9fd2-6f2e5d4079e0.png">
+
+### ML models
+
+#### Random Forest Regressor Model
+
+Mean Absolute Error(MAE): 0.0034987029831387807
+Residual Sum of Squares(MSE): 0.0016745953307392997
+R2-Score: 0.9777628961567513
+
+### Simple Linear Regression
+
+Mean Absolute Error(MAE): 0.15286614394522233
+Residual Sum of Squares(MSE): 0.0642310381624294
+R2-Score: 0.14707019698481794
+
+### Decision Tree
+
+Mean Absolute Error(MAE): 0.0025940337224383916
+Residual Sum of Squares(MSE): 0.0025940337224383916
+R2-Score: 0.965553590052538
+
+### Gradient Boosting Regressor
+
+Mean Absolute Error(MAE): 0.003993844148352212
+Residual Sum of Squares(MSE): 0.0015333907849524402
+R2-Score: 0.979637964174775
+
+### Support Vector Machine regressor
+
+Mean Absolute Error(MAE): 0.1655890468230072
+Residual Sum of Squares(MSE): 0.07562714033184946
+R2-Score: -0.004259681164184181
+
 
 - Crash Fatality
 ![crash_Fatality](https://user-images.githubusercontent.com/111814578/216847880-bac5d90d-6a8e-43a3-948c-6a765b450309.png)
 
+The data in the dataset is imbalanced for the prediction (refer graph). We resampled the data as under sampling, where we reduced the number of majority (Non-Fatal) crashes.
+
+## Undersampling
+
+<img width="1110" alt="Screen Shot 2023-02-08 at 23 59 16" src="https://user-images.githubusercontent.com/111800568/217722298-9013a3f3-f3ac-4950-a988-75c3cedf46f4.png">
+
+The Machine Learning classifier algorithms that we used
+ - Bagging Classifier (Sklearn)
+ - Adaboost Classifier (sklearn)
+ - Random Forrest Classifier (sklearn)
+
+<img width="1006" alt="Screen Shot 2023-02-09 at 00 02 46" src="https://user-
+                                                                
+<img width="183" alt="image" src="https://user-images.githubusercontent.com/111800568/217722706-9c6f0ed6-9bd4-4085-8ad6-36e431abfc82.png">
+                                                                                                                                         
+                                                                                                                                         <img width="178" alt="image" src="https://user-images.githubusercontent.com/111800568/217722728-11a59ac6-5fe6-40d8-aeea-2e1d3c1e7e1d.png">
+
+Based on the performance metrics, Random Forest Classifier is the best model in this case. Although all the models have high accuracy, Random Forest has the lowest log loss and error rate compared to Bagging Classifier and AdaBoost Classifier. Also, the recall and F1 score are similarly high for all three models.
+
+## Limitations
+
+The possible limitations of the data set are:
+ - The data was highly imbalanced, with most of the accidents being non-fatal. This affected the model performance, and under sampling was done to improve accuracy.
+
+ - Some crucial factors related to accidents were not included, such as information on speeding by drivers, cell phone usage, time of arrival of emergency units, and information on passengers.
+
+ - The low correlation values indicated weak relationships between the features and the target variable.
+
+Some suggestions to overcome these limitations could be:
+ - Collecting data on driver behaviour, such as speeding and cell phone usage, to improve the understanding of factors contributing to accidents.
+ - Collecting information on the arrival time of emergency units and passengers to get a more comprehensive view of the situation.
+ - To improve the model performance, consider alternative techniques to handle imbalanced data, such as oversampling or synthetic data generation.
+
+
+ 
+ 
+                                                              
