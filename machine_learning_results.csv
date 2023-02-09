@@ -1,0 +1,4 @@
+,Classifier,Accuracy,Log Loss,Recall,F1,False Positive Rate,Error Rate
+0,BaggingClassifier,99.73,0.04,99.92,99.85,2.53,0.27
+0,AdaBoostClassifier,99.73,0.56,99.92,99.85,2.53,0.27
+0,RandomForestClassifier,99.69,0.03,99.92,99.83,3.03,0.31
