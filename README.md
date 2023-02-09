@@ -1,5 +1,7 @@
 # Final_Project_Bike_Pedestrian_Crash_Analysis
 
+[link to Dashboard](https://public.tableau.com/authoring/Capstone_project_16745201462500/CrashesByCity_1#1)
+ - Exploratory analysis using variables such as Geographic location, Speed limit, Day of the Week, Type of Development and etc.
 
 ## Background
 
